@@ -10,4 +10,4 @@ for i in texto:
         
 print("La cantidad de vocales en la palabra es: ",cant_vocales)
          
-         """((letra == "a") or(letra == "A") or (letra == "e") or  (letra == "E") or (letra == "i") or (letra == "I") or  (letra == "o") or (letra == "O") or (letra == "u") or (letra == "U")):"""
+"""((letra == "a") or(letra == "A") or (letra == "e") or  (letra == "E") or (letra == "i") or (letra == "I") or  (letra == "o") or (letra == "O") or (letra == "u") or (letra == "U")):"""
