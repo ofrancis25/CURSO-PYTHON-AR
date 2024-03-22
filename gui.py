@@ -19,4 +19,5 @@ def main(page:ft.Page):
 
     for tarea in tareas:
         page.add ( ft.Text(tarea[1]))
-ft.app(target=main)
+ft.app(target=main,)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
