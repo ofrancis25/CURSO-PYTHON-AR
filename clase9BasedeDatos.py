@@ -10,7 +10,7 @@ cursor.execute("INSERT INTO Estudiante VALUES ('Francelis', '4to')")
 cursor.execute("INSERT INTO Estudiante VALUES ('Eliezer', '1ero')") """
 cursor.execute(" SELECT *FROM Estudiante")
 
-cursor.execute("DELETE FROM Estudiante WHERE Nombres= 'Daniel'")
+cursor.execute("")
 conn.commit()
 cursor.execute("UPDATE Estudiante SET Curso= '2do' WHERE Nombres= 'Francelis'")
 conn.commit()
@@ -18,4 +18,3 @@ res=cursor.execute(" SELECT *FROM Estudiante")
 data= res.fetchall()
 for valor in data:
     print(f"Nombre: {valor[0]}, Curso:{valor[1]}")
-
